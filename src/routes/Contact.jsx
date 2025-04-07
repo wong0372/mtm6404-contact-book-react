@@ -76,7 +76,7 @@ export const Contact = () => {
         await deleteDoc(docRef);
         console.log("Contact deleted successfully");
 
-        // back to home page
+        // back to home
         setContact(null);
         navigate("/");
       } catch (error) {
