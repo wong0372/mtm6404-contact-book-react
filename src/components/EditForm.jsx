@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// hold the form data
+// hold form data
 export const EditForm = ({ contact, onUpdate, onCancel }) => {
   const [formData, setFormData] = useState({
     firstName: "",
